@@ -24,4 +24,18 @@ fn main() {
     //Rust has the bool type to represent true and false
 
     //Rust has characters which are unicode
+
+    //Rust has tuples. Each item in a tuple can have a different type:
+    let tup: (i32, f64, u8) = (1, 5.6, 1);
+
+    //You can use pattern matching to access the contents of a tuple:
+    let (x, y, z) = tup;
+
+    //You can also access an item in the tuple by its element:
+    let x = tup.0;
+
+    //Rust has arrays. Unlike tuples, each element must have the same type
+    //Arrays have a fixed size. They cannot grow or shrink
+
+    let a = [1, 2, 3, 4, 5];
 }
