@@ -38,4 +38,9 @@ fn main() {
     //Arrays have a fixed size. They cannot grow or shrink
 
     let a = [1, 2, 3, 4, 5];
+    print_hello_world();
+}
+
+fn print_hello_world(){
+    println!("Hello, world!");
 }
