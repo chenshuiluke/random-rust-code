@@ -38,6 +38,9 @@ fn main() {
     //Arrays have a fixed size. They cannot grow or shrink
 
     let a = [1, 2, 3, 4, 5];
+
+    //If you attempt to access an array's contents using an index that it does not contain,
+    //a runtime panic will occur
     print_hello_world();
 }
 
